@@ -129,18 +129,12 @@ span.add-icon {
 
 @media (max-width:960px){
   span.add-text {display: none;}
-  .header-container{
-    margin: 0 auto;
-    margin-top: 48px;
-    width: 80%;
-    transform: translateY(-50px);
-  }
   .header p {
-    font-size: 56px;
+    font-size: 40px;
     font-style: bold;
   }
   .header p img {
-    max-height: 64px;
+    max-height: 48px;
   }
   label{font-size: 16px;}
   #label-name, #name{
