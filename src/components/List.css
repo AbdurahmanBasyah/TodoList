@@ -1,0 +1,35 @@
+.list-container {
+    position: relative;
+    justify-self: auto;
+    background-color: #ffffff;
+    margin-top: 33px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.list-title{
+    margin: 1em;
+}
+
+.icon-container{
+    margin-right: 32px;
+    display: flex;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.list h3{
+    color: #000000;
+}
+
+@media (max-width:960px){
+    .list-container {
+      margin: 0 auto;
+      margin-top: 33px;
+    }
+}
